@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturn Calligraphy - Dark Mode Gallery</title>
+
+    <style>
+        body {
+            font-family: "Poppins", "Segoe UI", sans-serif;
+            background: #0D0A12;
+            color: #EDE7F6;
+            margin: 0;
+            padding: 0;
+            line-height: 1.7;
+        }
+
+        /* Navigation */
+        nav {
+            width: 100%;
+            padding: 20px 0;
+            background: #120E19;
+            border-bottom: 1px solid #3B2C59;
+        }
+
+        nav .nav-container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            justify-content: flex-end;
+            gap: 25px;
+        }
+
+        nav a {
+            color: #C084FC;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: 0.2s ease;
+        }
+
+        nav a:hover {
+            color: #E9D5FF;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 0 40px;
+        }
+
+        h1 {
+            font-size: 3.2em;
+            color: #C084FC;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.2em;
+            color: #A78BFA;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .product-card {
+            background: #1A1524;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid #3B2C59;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.45);
+            transition: 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 18px 40px rgba(192, 132, 252, 0.25);
+        }
+
+        .product-image-container {
+            height: 330px;
+            overflow: hidden;
+        }
+
+        .product-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.4s ease;
+        }
+
+        .product-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .product-details {
+            padding: 25px;
+            text-align: center;
+        }
+
+        .product-details h2 {
+            font-size: 1.7em;
+            color: #D8B4FE;
+            margin-bottom: 10px;
+        }
+
+        .product-details p {
+            color: #CFC3E8;
+            font-size: 1em;
+        }
+
+        .contact-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 28px;
+            background: #7C3AED;
+            color: #FFF;
+            border-radius: 10px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .contact-button:hover {
+            background: #9F67FF;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 70px;
+            padding: 40px 0;
+            text-align: center;
+            border-top: 1px solid #3B2C59;
+            color: #BFAEEA;
+        }
+
+        .social-links a {
+            margin: 0 12px;
+            padding: 8px 14px;
+            color: #C084FC;
+            border: 1px solid #4B3A63;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: 0.2s ease;
+        }
+
+        .social-links a:hover {
+            background: #3B2C59;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <header>
+            <h1>Saturn Calligraphy</h1>
+            <p class="tagline">Cosmic Art in Pure Darkness</p>
+        </header>
+
+        <div class="product-grid">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="IMG_2100.jpeg" alt="Turquoise Script Masterpiece">
+                </div>
+                <div class="product-details">
+                    <h2>Turquoise Script Masterpiece</h2>
+                    <p>A stunning blend of turquoise and deep blue strokes, crafted with cosmic harmony.</p>
+                    <a href="https://wa.me/971506129130" class="contact-button" target="_blank">Order via WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="IMG_2097.jpeg" alt="Monochrome Elegance Piece">
+                </div>
+                <div class="product-details">
+                    <h2>Monochrome Elegance Piece</h2>
+                    <p>A minimalist black-and-white artwork emphasizing pure form and graceful motion.</p>
+                    <a href="https://wa.me/971506129130" class="contact-button" target="_blank">Order via WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="IMG_2110.jpeg" alt="Calligraphy Artwork 2110">
+                </div>
+                <div class="product-details">
+                    <h2>Calligraphy Artwork</h2>
+                    <p>A refined and elegant calligraphy piece presented in a modern interior setting.</p>
+                    <a href="https://wa.me/971506129130" class="contact-button" target="_blank">Order via WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="IMG_2111.jpeg" alt="Calligraphy Artwork 2111">
+                </div>
+                <div class="product-details">
+                    <h2>Calligraphy Artwork</h2>
+                    <p>A beautifully detailed calligraphy artwork with a clean and modern decorative layout.</p>
+                    <a href="https://wa.me/971506129130" class="contact-button" target="_blank">Order via WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="IMG_2112.jpeg" alt="Calligraphy Artwork 2112">
+                </div>
+                <div class="product-details">
+                    <h2>Calligraphy Artwork</h2>
+                    <p>An elegant calligraphy piece displayed with refined interior styling.</p>
+                    <a href="https://wa.me/971506129130" class="contact-button" target="_blank">Order via WhatsApp</a>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <div class="social-links">
+                <a href="https://www.instagram.com/saturn_caligraphy" target="_blank">Instagram</a>
+                <a href="https://wa.me/971506129130" target="_blank">WhatsApp</a>
+            </div>
+            <p>&copy; 2026 Saturn Calligraphy. All rights reserved.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
